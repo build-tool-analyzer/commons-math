@@ -4,7 +4,6 @@
 .checkstyle
 bin
 target
-/build
 /lib
 /site-content
 .ekstazi
@@ -17,7 +16,6 @@ target
 
 # Gradle
 .gradle
-build/
 */build/
 
 # Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
