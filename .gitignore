@@ -14,3 +14,15 @@ target
 *.iws
 .idea
 *~
+
+# Gradle
+.gradle
+build/
+*/build/
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+
+bazel-bin/
+bazel-commons-math/
+bazel-out/
